@@ -18,5 +18,18 @@ class Solution {
             else right = mid -1;
         }
         return false;
+
+        // int m = matrix.length;
+        // int n = matrix[0].length;
+        // boolean found = false;
+        // for(int i =0;i<m;i++){
+        //     for(int j =0;j<n;j++){
+        //         if(matrix[i][j]==target){
+        //             return true;
+        //         }
+        //     }
+        // }
+        // if(!found) return false;
+        // return false;
     }
 }
